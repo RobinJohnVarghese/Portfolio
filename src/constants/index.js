@@ -1,20 +1,21 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
     car,
-    contact,
+    // contact,
     css,
     estate,
     // express,
     git,
     github,
     html,
+    // python,
     javascript,
     linkedin,
     mongodb,
     motion,
     mui,
-    // nextjs,
-    // nodejs,
+    nextjs,
+    nodejs,
     pricewise,
     react,
     redux,
@@ -25,18 +26,59 @@ import {
     threads,
     // typescript
 } from "../assets/icons";
+import python from '/src/assets/icons/python.svg';
+import django from '/src/assets/icons/django.svg';
+import aws from '/src/assets/icons/aws.svg';
+import figma from '/src/assets/icons/figma.svg';
+import postman from '/src/assets/icons/postman.svg';
+import mysql from '/src/assets/icons/mysql.svg';
 
 export const skills = [
+    {
+        imageUrl: html,
+        name: "HTML",
+        type: "Frontend",
+    },
     {
         imageUrl: css,
         name: "CSS",
         type: "Frontend",
     },
-    // {
-    //     imageUrl: express,
-    //     name: "Express",
-    //     type: "Backend",
-    // },
+    {
+        imageUrl: figma,
+        name: "Figma",
+        type: "UI",
+    },
+    {
+        imageUrl: javascript,
+        name: "JavaScript",
+        type: "Frontend",
+    },
+    {
+        imageUrl: python,
+        name: "python",
+        type: "Backend",
+    },
+    {
+        imageUrl: django,
+        name: "Django",
+        type: "Backend",
+    },
+    {
+        imageUrl: mysql,
+        name: "MySQL",
+        type: "Database",
+    },
+    {
+        imageUrl: postman,
+        name: "Postman",
+        type: "API development and testing",
+    },
+    {
+        imageUrl: aws,
+        name: "AWS",
+        type: "cloud platform",
+    },
     {
         imageUrl: git,
         name: "Git",
@@ -46,16 +88,6 @@ export const skills = [
         imageUrl: github,
         name: "GitHub",
         type: "Version Control",
-    },
-    {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
     },
     {
         imageUrl: mongodb,
@@ -165,11 +197,21 @@ export const experiences = [
 ];
 
 export const socialLinks = [
-    {
-        name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
-    },
+    // {
+    //     name: 'Contact',
+    //     iconUrl: contact,
+    //     link: '/contact',
+    // },
+    // {
+    //     name: 'Email',
+    //     iconUrl: email,
+    //     link: '/contact',
+    // },
+    // {
+    //     name: 'Contact',
+    //     iconUrl: contact,
+    //     link: 'https://wa.me/918281065621', // Replace 'yourphonenumber' with your actual phone number in international format without any symbols
+    // },
     {
         name: 'GitHub',
         iconUrl: github,

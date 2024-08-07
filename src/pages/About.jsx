@@ -45,6 +45,7 @@ const About = () => {
                   className='w-1/2 h-1/2 object-contain'
                 />
               </div>
+              <div style={{paddingTop:80,textAlign:"center"}}>{skill.name}</div>
             </div>
           ))}
         </div>
