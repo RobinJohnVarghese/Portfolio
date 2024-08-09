@@ -65,6 +65,7 @@ const About = () => {
             {experiences.map((experience, index) => (
               <VerticalTimelineElement
                 key={experience.company_name}
+                // proj={experience.company_project}
                 date={experience.date}
                 iconStyle={{ background: experience.iconBg }}
                 icon={

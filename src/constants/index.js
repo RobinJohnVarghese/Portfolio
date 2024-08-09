@@ -1,9 +1,17 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
+import brototype from '/src/assets/images/brototype.webp';
+import access from '/src/assets/images/access.png';
+import rental from '/src/assets/icons/rental.png';
+import footsteps from '/src/assets/icons/footsteps.png';
+import olx from '/src/assets/icons/olx.png';
+import netflix from '/src/assets/icons/netflix.png';
+import todo from '/src/assets/icons/todo.png';
+
 import {
-    car,
+    // car,
     // contact,
     css,
-    estate,
+    // estate,
     // express,
     git,
     github,
@@ -20,10 +28,10 @@ import {
     react,
     redux,
     sass,
-    snapgram,
+    // snapgram,
     summiz,
     tailwindcss,
-    threads,
+    // threads,
     // typescript
 } from "../assets/icons";
 import python from '/src/assets/icons/python.svg';
@@ -143,57 +151,59 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Django+React Developer",
+        company_name: "Rental Home",
+        icon: brototype,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "March 2024 - April 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Developing and maintaining web applications using React.js,Django and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Implementing global state management library like Redux.",
+            "payment integration used for this project is PayPal",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Python Django Developer",
+        company_name: "Footsteps",
+        icon: brototype,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "Oct 2023 - Nov 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Developing and maintaining web applications using django,html,css and other related technologies.",
+            "Collaborating with django channels including one to one chat support, customer can be seller and also buyer.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
+            "payment integration used for this project is Razorpay",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        title: "Project Engineer",
+        company_name: "Access Refrigeration",
+        icon: access,
+        iconBg: "#b2e4a1",
+        date: "Mar 2021 - Feb 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Collaborated and worked closely with 50+ professionals from the industry, conducted reports and monthly audits on project, progress presenting results to executive",
+            "Oversee mechanical /HVAC facility designs for layout, plant, utilities and equipment arrangement for commercial and residential projects.",
+            "Managed and collaborated commissioning and billing as per BOQ",
+            "Understand overall project constraints including design budget limitations and schedule requirements.",
         ],
     },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+    // {
+    //     title: "Full stack Developer",
+    //     company_name: "Meta",
+    //     icon: meta,
+    //     iconBg: "#a2d2ff",
+    //     date: "Jan 2023 - Present",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
 ];
 
 export const socialLinks = [
@@ -226,45 +236,46 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: rental,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Rental Home',
+        description: 'Developed a web application that tracks and notifies users  needful houses and properties, helping users find the best deals.',
+        link: 'https://github.com/RobinJohnVarghese/Rental_Home_Frontend',
+        // link: 'https://github.com/RobinJohnVarghese/Rental_Home_Backend',
     },
     {
-        iconUrl: threads,
+        iconUrl: footsteps,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Footsteps',
+        description: 'Created a full-stack app  platform for  buy and use footwears for affordable price and trending styles.',
+        link: 'https://github.com/RobinJohnVarghese/Footsteps_Ecommerce_django',
     },
     {
         iconUrl: summiz,
+        theme: 'btn-back-blue',
+        name: 'Password Generator',
+        description: 'Designed and built an app for finding, comparing and generating passwords for different apps and personal uses',
+        link: 'https://github.com/RobinJohnVarghese/passwordgeneratorfrontend',
+    },
+    {
+        iconUrl: todo,
+        theme: 'btn-back-pink',
+        name: 'ToDo Lists',
+        description: "It's important for the daily task or some targets for achieving the goals to check all are correct order or not",
+        link: 'https://github.com/RobinJohnVarghese/ToDo-Lists',
+    },
+    {
+        iconUrl: olx,
+        theme: 'btn-back-black',
+        name: 'Olx-using React',
+        description: 'Developed a web application for new and old things listings, facilitating property searches and connecting buyers with sellers.',
+        link: 'https://github.com/RobinJohnVarghese/OLX-using-React',
+    },
+    {
+        iconUrl: netflix,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Netflix clone',
+        description: 'Built a complete clone of Netflix, allowing users to see photos and video with friends and family for environment..',
+        link: 'https://github.com/RobinJohnVarghese/Netflix-using-React',
     }
 ];
